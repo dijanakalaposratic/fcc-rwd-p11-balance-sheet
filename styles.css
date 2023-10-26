@@ -59,3 +59,18 @@ section {
     z-index: 999; /* The z-index property specifies the stack order of an element.
                     An element with greater stack order is always in front of an element with a lower stack order. */
 }
+
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+}
+/* The span[class] syntax will target any span element that has a class attribute set, regardless of the attribute's value.*/
+
+.table-wrap {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+span:not(.sr-only) {
+    font-weight: normal;
+}
